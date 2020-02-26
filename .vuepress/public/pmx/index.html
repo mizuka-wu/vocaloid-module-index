@@ -7,14 +7,25 @@
 </head>
 
 <body>
+    <div style="margin: 5px 0;">
+        操控说明：上下左右 + 鼠标滚轮 + 鼠标拖拽调整镜头
+    </div>
     <a-scene antialias="true" outline>
         <a-entity position="0 10 20">
             <a-camera></a-camera>
         </a-entity>
 
-        <a-entity mmd-model="model:./models/PDAFT_DEFAULT_LEN/PDAFT Default Len.pmx;"></a-entity>
+        <a-entity id="entity" mmd-model=""></a-entity>
 
         <a-light type="ambient" color="#888"></a-light>
         <a-light color="#AAA" distance="100" intensity="0.4" type="point"></a-light>
     </a-scene>
 </body>
+<script>
+    window.onload = function () {
+        const entity = document.querySelector('#entity')
+        const modulePath = location.hash.replace('#', '')
+        const mmdModel = `model:./models/${modulePath};`
+        entity.setAttribute('mmd-model', mmdModel)
+    }
+</script>
