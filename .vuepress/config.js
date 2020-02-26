@@ -8,6 +8,19 @@ module.exports = {
       {
         text: "分类",
         items: nav
+      },
+      {
+        text: "源",
+        items: [
+          {
+            text: "github源",
+            link: "https://www.mizuka.top/vocaloid-module-index/"
+          },
+          {
+            text: "gitee源",
+            link: "https://miuzka.gitee.io/vocaloid-module-index/"
+          }
+        ]
       }
     ]
   }

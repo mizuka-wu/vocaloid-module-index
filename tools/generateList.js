@@ -40,18 +40,15 @@ categories.forEach(({ name, modules }) => {
     `
 # ${name}
 模组：
-
 ${modules
-  .map(
-    _module =>
-      `![${_module.name}](../module/${[name, _module.name, _module.pic].join(
-        "/"
-      )})  
+  .map(_module => {
+    const pic = `../module/${[name, _module.name, _module.pic].join("/")}`;
+    return `![${_module.name}](${pic})
       模组主页：[点击前往](${config.base}module/${name}/${_module.name})
-      `
-  )
+      `;
+  })
   .join("\n")}
-  `,
+`,
     {
       flag: "w"
     }
@@ -64,9 +61,10 @@ fs.writeFileSync(
 # 根据分类查看
 ${categories
   .map(
-    ({ name }) => `
+    ({ name, modules }) => `
 # ${name}
 [点击前往](${config.base}list/${name})
+共收录 ${modules.length} 个模组
 `
   )
   .join("\n")}
