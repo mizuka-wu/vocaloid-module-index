@@ -31,4 +31,4 @@ CV：下田麻美
 
 ## mmd 模型
 
-<iframe style="border: 0" :src="$withBase('/pmx/index.html#PDAFT_DEFAULT_LEN/PDAFT_Default_Len.Pmx')" width="100%" height="500"></iframe>
+<iframe style="border: 0" :src="$withBase('/pmx/index.html#PDAFT_DEFAULT_LEN/PDAFT Default Len.Pmx')" width="100%" height="500"></iframe>
