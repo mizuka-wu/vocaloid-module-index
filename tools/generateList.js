@@ -44,8 +44,8 @@ categories.forEach(({ name, modules }) => {
 ${modules
   .map(_module => {
     const pic = `../module/${[name, _module.name, _module.pic].join("/")}`;
-    return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;">
-      <a style="text-align: center;" href="${config.base}module/${name}/${_module.name}">
+    return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
+      <a href="${config.base}module/${name}/${_module.name}">
         <img src="${pic}" />
         <div>${_module.name}</div>
         <div>点击前往</div>
