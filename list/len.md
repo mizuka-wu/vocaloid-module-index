@@ -128,7 +128,4 @@
 ![len_42](../module/len/len_42/index.jpg)  
       模组主页：[点击前往](/vocaloid-module-index/module/len/len_42)
       
-![len_43](../module/len/len_43/index.jpg)  
-      模组主页：[点击前往](/vocaloid-module-index/module/len/len_43)
-      
   

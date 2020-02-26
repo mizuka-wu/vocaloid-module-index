@@ -125,7 +125,4 @@
 ![kaito_41](../module/kaito/kaito_41/index.jpg)  
       模组主页：[点击前往](/vocaloid-module-index/module/kaito/kaito_41)
       
-![kaito_42](../module/kaito/kaito_42/index.jpg)  
-      模组主页：[点击前往](/vocaloid-module-index/module/kaito/kaito_42)
-      
   

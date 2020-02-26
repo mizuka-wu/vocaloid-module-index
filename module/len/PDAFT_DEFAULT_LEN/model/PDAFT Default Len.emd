@@ -1,0 +1,7 @@
+[Info]
+Version = 3
+
+[Effect]
+Obj = fx.fx
+Obj.show = true
+

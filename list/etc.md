@@ -50,7 +50,4 @@
 ![etc_16](../module/etc/etc_16/index.jpg)  
       模组主页：[点击前往](/vocaloid-module-index/module/etc/etc_16)
       
-![etc_17](../module/etc/etc_17/index.jpg)  
-      模组主页：[点击前往](/vocaloid-module-index/module/etc/etc_17)
-      
   

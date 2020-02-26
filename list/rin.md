@@ -152,7 +152,4 @@
 ![rin_50](../module/rin/rin_50/index.jpg)  
       模组主页：[点击前往](/vocaloid-module-index/module/rin/rin_50)
       
-![rin_51](../module/rin/rin_51/index.jpg)  
-      模组主页：[点击前往](/vocaloid-module-index/module/rin/rin_51)
-      
   

@@ -131,7 +131,4 @@
 ![luka_43](../module/luka/luka_43/index.jpg)  
       模组主页：[点击前往](/vocaloid-module-index/module/luka/luka_43)
       
-![luka_44](../module/luka/luka_44/index.jpg)  
-      模组主页：[点击前往](/vocaloid-module-index/module/luka/luka_44)
-      
   

@@ -104,7 +104,4 @@
 ![meiko_34](../module/meiko/meiko_34/index.jpg)  
       模组主页：[点击前往](/vocaloid-module-index/module/meiko/meiko_34)
       
-![meiko_35](../module/meiko/meiko_35/index.jpg)  
-      模组主页：[点击前往](/vocaloid-module-index/module/meiko/meiko_35)
-      
   
