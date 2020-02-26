@@ -40,14 +40,13 @@ categories.forEach(({ name, modules }) => {
     `
 # ${name}
 模组：
+
 ${modules
   .map(
     _module =>
-      `![${_module.name}](${config.base}module/${[
-        name,
-        _module.name,
-        _module.pic
-      ].join("/")})
+      `![${_module.name}](../module/${[name, _module.name, _module.pic].join(
+        "/"
+      )})  
       模组主页：[点击前往](${config.base}module/${name}/${_module.name})
       `
   )
