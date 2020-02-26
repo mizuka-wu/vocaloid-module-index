@@ -45,10 +45,10 @@ ${modules
   .map(_module => {
     const pic = `../module/${[name, _module.name, _module.pic].join("/")}`;
     return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;">
-      <a href="${config.base}module/${name}/${_module.name}">
+      <a style="text-align: center;" href="${config.base}module/${name}/${_module.name}">
         <img src="${pic}" />
-        <div style="text-align: center;">${_module.name}</div>
-        <div style="text-align: center;">点击前往</div>
+        <div>${_module.name}</div>
+        <div>点击前往</div>
       </a>
     </div>`;
   })
