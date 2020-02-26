@@ -40,14 +40,19 @@ categories.forEach(({ name, modules }) => {
     `
 # ${name}
 模组：
+<div class="row">
 ${modules
   .map(_module => {
     const pic = `../module/${[name, _module.name, _module.pic].join("/")}`;
-    return `![${_module.name}](${pic})
-      模组主页：[点击前往](${config.base}module/${name}/${_module.name})
-      `;
+    return `<div class="col-sm-8 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;">
+      <a href="${config.base}module/${name}/${_module.name}">
+        <img src="${pic}" />
+        <div style="text-align: center;">点击前往</div>
+      </a>
+    </div>`;
   })
   .join("\n")}
+</div>  
 `,
     {
       flag: "w"
