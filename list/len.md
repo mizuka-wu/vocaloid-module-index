@@ -2,8 +2,8 @@
 # len
 模组：
 
-![len_01](../module/len/len_01/index.jpg)  
-      模组主页：[点击前往](/vocaloid-module-index/module/len/len_01)
+![PDAFT_DEFAULT_LEN](../module/len/PDAFT_DEFAULT_LEN/index.jpg)  
+      模组主页：[点击前往](/vocaloid-module-index/module/len/PDAFT_DEFAULT_LEN)
       
 ![len_02](../module/len/len_02/index.jpg)  
       模组主页：[点击前往](/vocaloid-module-index/module/len/len_02)
