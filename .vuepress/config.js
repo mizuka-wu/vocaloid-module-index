@@ -3,6 +3,7 @@ module.exports = {
   base: "/vocaloid-module-index/",
   title: "V家模组收集",
   evergreen: true,
+  plugins: ["element-ui"],
   themeConfig: {
     nav: [
       {
