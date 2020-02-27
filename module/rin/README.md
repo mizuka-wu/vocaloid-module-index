@@ -94,13 +94,6 @@
       </a>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <a href="/vocaloid-module-index/module/rin/rin_15">
-        <img src="./rin_15/index.jpg" />
-        <div>rin_15</div>
-        <div>点击前往</div>
-      </a>
-    </div>
-<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
       <a href="/vocaloid-module-index/module/rin/rin_16">
         <img src="./rin_16/index.jpg" />
         <div>rin_16</div>
@@ -349,6 +342,13 @@
       <a href="/vocaloid-module-index/module/rin/镜音铃">
         <img src="./镜音铃/index.jpg" />
         <div>镜音铃</div>
+        <div>点击前往</div>
+      </a>
+    </div>
+<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
+      <a href="/vocaloid-module-index/module/rin/镜音铃_Append">
+        <img src="./镜音铃_Append/index.jpg" />
+        <div>镜音铃_Append</div>
         <div>点击前往</div>
       </a>
     </div>
