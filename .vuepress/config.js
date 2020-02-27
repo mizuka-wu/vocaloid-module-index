@@ -22,7 +22,7 @@ module.exports = {
           },
           {
             text: "gitee源",
-            link: "https://miuzka.gitee.io/vocaloid-module-index/"
+            link: "https://mizuka.gitee.io/vocaloid-module-index/"
           }
         ]
       }
