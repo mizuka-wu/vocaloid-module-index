@@ -9,13 +9,19 @@ const outputPath = "module";
 const tree = readFileTree.sync(basePath);
 
 const categories = Object.keys(tree)
-  .filter(categoryName => categoryName !== ".gitkeep")
+  .filter(categoryName => {
+    return !Buffer.isBuffer(tree[categoryName]);
+  })
   .map(categoryName => {
     const category = tree[categoryName];
-    const modules = Object.keys(category).map(moduleName => ({
-      name: moduleName,
-      pic: "index.jpg"
-    }));
+    const modules = Object.keys(category)
+      .filter(moduleName => {
+        return !Buffer.isBuffer(category[moduleName]);
+      })
+      .map(moduleName => ({
+        name: moduleName,
+        pic: "index.jpg"
+      }));
     return {
       name: categoryName,
       modules
