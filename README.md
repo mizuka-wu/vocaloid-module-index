@@ -17,6 +17,9 @@ footer: MIT Licensed | Copyright © 2020-present Mizuka wu
 
 # 这是一个 v 家模组收集的 github 项目
 
-大概分了几个部分
+![Sync To Gitee](https://github.com/mizuka-wu/vocaloid-module-index/workflows/Sync%20To%20Gitee/badge.svg)
+![Publish docs to github actions](https://github.com/mizuka-wu/vocaloid-module-index/workflows/Publish%20docs%20to%20github%20actions/badge.svg)
 
-等会写
+目前收录了 ft 的模组信息，其他的正在人工增加中
+
+国内请访问[https://mizuka.gitee.io/vocaloid-module-index/]
