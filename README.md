@@ -4,7 +4,7 @@ heroImage: /hero.png
 heroText: V家模组收集
 tagline: 模组/设计图 收录
 actionText: 查看列表
-actionLink: /list/
+actionLink: /module/
 features:
   - title: 模组
     details: 以ft为主
