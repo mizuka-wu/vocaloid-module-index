@@ -1,0 +1,16 @@
+name: Sync to Gitee
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+        with:
+          source-repo: "git@github.com:mizuka-wu/vocaloid-module-index.git"
+          destination-repo: "git@gitee.com:mizuka/vocaloid-module-index.git"
