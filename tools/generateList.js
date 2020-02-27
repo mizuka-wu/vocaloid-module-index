@@ -38,7 +38,7 @@ categories.forEach(({ name, modules }) => {
 <div class="row">
 ${modules
   .map(_module => {
-    const pic = `./${[name, _module.name, _module.pic].join("/")}`;
+    const pic = `./${[_module.name, _module.pic].join("/")}`;
     return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
       <a href="${config.base}module/${name}/${_module.name}">
         <img src="${pic}" />
