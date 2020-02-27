@@ -1,11 +1,5 @@
 name: Sync To Gitee
-on:
-  push:
-    branches:
-      - gh-pages
-  pull_request:
-    branches:
-      - gh-pages
+on: page_build
 
 jobs:
   build:
