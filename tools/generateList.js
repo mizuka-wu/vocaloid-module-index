@@ -64,7 +64,7 @@ ${categories
   .map(
     ({ name, modules }) => `
 ## ${name}
-[点击前往](${config.base}list/${name})
+[点击前往](${config.base}module/${name})
 共收录 ${modules.length} 个模组
 `
   )
