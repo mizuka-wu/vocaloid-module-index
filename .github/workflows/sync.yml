@@ -8,11 +8,21 @@ on:
       - gh-pages
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo Hello, world!
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: 构建
-        uses: wearerequired/git-mirror-action@master
+      - uses: wearerequired/git-mirror-action@master
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
         with:
