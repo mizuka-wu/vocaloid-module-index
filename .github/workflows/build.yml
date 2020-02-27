@@ -28,3 +28,12 @@ jobs:
           BRANCH: gh-pages
           FOLDER: .vuepress/dist
           SSH: true # SSH must be set to true so the deploy action knows which protocol to deploy with.
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+        with:
+          source-repo: "git@github.com:mizuka-wu/vocaloid-module-index.git"
+          destination-repo: "git@gitee.com:mizuka/vocaloid-module-index.git"
