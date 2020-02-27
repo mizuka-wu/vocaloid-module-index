@@ -22,21 +22,10 @@ const categories = Object.keys(tree)
     };
   });
 
-/**
- * 删除老的文件
- */
-if (!fs.existsSync(outputPath)) {
-  fs.mkdirSync(outputPath);
-}
-const oldFiles = fs.readdirSync(outputPath);
-for (file of oldFiles) {
-  fs.unlinkSync(path.resolve(outputPath, file));
-}
-
 /** 增加list文件 */
 categories.forEach(({ name, modules }) => {
   fs.writeFileSync(
-    path.resolve(outputPath, `${name}.md`),
+    path.resolve(outputPath, name, "README.md"),
     `
 # ${name}
 模组：
@@ -68,7 +57,7 @@ fs.writeFileSync(
 ${categories
   .map(
     ({ name, modules }) => `
-# ${name}
+## ${name}
 [点击前往](${config.base}list/${name})
 共收录 ${modules.length} 个模组
 `

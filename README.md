@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /images/hero.jpeg
 heroText: V家模组收集
 tagline: 模组/设计图 收录
 actionText: 查看列表

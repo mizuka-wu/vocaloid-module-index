@@ -1,30 +1,30 @@
 [
   {
     "text": "etc",
-    "link": "/list/etc"
+    "link": "/module/etc/"
   },
   {
     "text": "kaito",
-    "link": "/list/kaito"
+    "link": "/module/kaito/"
   },
   {
     "text": "len",
-    "link": "/list/len"
+    "link": "/module/len/"
   },
   {
     "text": "luka",
-    "link": "/list/luka"
+    "link": "/module/luka/"
   },
   {
     "text": "meiko",
-    "link": "/list/meiko"
+    "link": "/module/meiko/"
   },
   {
     "text": "miku",
-    "link": "/list/miku"
+    "link": "/module/miku/"
   },
   {
     "text": "rin",
-    "link": "/list/rin"
+    "link": "/module/rin/"
   }
 ]
