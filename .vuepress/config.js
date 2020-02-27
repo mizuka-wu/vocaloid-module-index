@@ -3,6 +3,11 @@ module.exports = {
   base: "/vocaloid-module-index/",
   title: "V家模组收集",
   themeConfig: {
+    // algolia: {
+    //   apiKey: '<API_KEY>',
+    //   indexName: '<INDEX_NAME>'
+    // },
+    sidebar: "auto",
     nav: [
       {
         text: "分类",
