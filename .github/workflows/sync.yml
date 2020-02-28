@@ -10,3 +10,9 @@ jobs:
         with:
           source-repo: "git@github.com:mizuka-wu/vocaloid-module-index.git"
           destination-repo: "git@gitee.com:mizuka/vocaloid-module-index.git"
+      - name: reload
+        uses: mizuka-wu/gitee-pages-action@v1.0.0
+        with:
+          repository: mizuka/vocaloid-module-index
+          cookie: ${{ secrets.GITEE_COOKIE }}
+          branch: gh-pages
