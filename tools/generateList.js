@@ -3,6 +3,16 @@ const fs = require("fs");
 const path = require("path");
 const config = require("../.vuepress/config");
 
+const NAME = {
+  len: "镜音连",
+  rin: "镜音铃",
+  miku: "初音未来",
+  kaito: "Kaito",
+  meiko: "Meiko",
+  luka: "巡音露卡",
+  etc: "其他衍生角色"
+};
+
 const basePath = "module";
 const outputPath = "module";
 
@@ -24,27 +34,32 @@ const categories = Object.keys(tree)
       }));
     return {
       name: categoryName,
+      displayName: NAME[categoryName] || categoryName,
       modules
     };
   });
 
 /** 增加list文件 */
-categories.forEach(({ name, modules }) => {
+categories.forEach(({ name, modules, displayName }) => {
   fs.writeFileSync(
     path.resolve(outputPath, name, "README.md"),
     `
-# ${name}
-模组：
+# ${displayName}
+> 模组列表 已收录${modules.length}个模组
+
 <div class="row">
 ${modules
+  .reverse()
   .map(_module => {
     const pic = `./${[_module.name, _module.pic].join("/")}`;
     return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <a href="${config.base}module/${name}/${_module.name}">
-        <img src="${pic}" />
-        <div>${_module.name}</div>
-        <div>点击前往</div>
-      </a>
+      <h3 id="${_module.name}" type="customer-head">
+        <a href="${config.base}module/${name}/${_module.name}">
+          <img src="${pic}" />
+          <div>${_module.name}</div>
+          <div>点击前往</div>
+        </a>
+      </h3>
     </div>`;
   })
   .join("\n")}
@@ -62,8 +77,8 @@ fs.writeFileSync(
 # 根据分类查看
 ${categories
   .map(
-    ({ name, modules }) => `
-## ${name}
+    ({ name, modules, displayName }) => `
+## ${displayName}
 [点击前往](${config.base}module/${name})
 共收录 ${modules.length} 个模组
 `
@@ -79,8 +94,8 @@ ${categories
 fs.writeFileSync(
   path.resolve(".vuepress/nav.json"),
   JSON.stringify(
-    categories.map(({ name }) => ({
-      text: name,
+    categories.map(({ name, displayName }) => ({
+      text: displayName,
       link: `/module/${name}/`
     })),
     null,

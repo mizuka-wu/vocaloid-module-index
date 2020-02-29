@@ -1,37 +1,37 @@
 
 # 根据分类查看
 
-## etc
+## 其他衍生角色
 [点击前往](/vocaloid-module-index/module/etc)
 共收录 16 个模组
 
 
-## kaito
+## Kaito
 [点击前往](/vocaloid-module-index/module/kaito)
 共收录 41 个模组
 
 
-## len
+## 镜音连
 [点击前往](/vocaloid-module-index/module/len)
 共收录 42 个模组
 
 
-## luka
+## 巡音露卡
 [点击前往](/vocaloid-module-index/module/luka)
 共收录 43 个模组
 
 
-## meiko
+## Meiko
 [点击前往](/vocaloid-module-index/module/meiko)
 共收录 34 个模组
 
 
-## miku
+## 初音未来
 [点击前往](/vocaloid-module-index/module/miku)
 共收录 150 个模组
 
 
-## rin
+## 镜音铃
 [点击前往](/vocaloid-module-index/module/rin)
 共收录 50 个模组
 

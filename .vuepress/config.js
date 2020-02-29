@@ -8,6 +8,7 @@ module.exports = {
     //   indexName: '<INDEX_NAME>'
     // },
     sidebar: "auto",
+    displayAllHeaders: true,
     nav: [
       {
         text: "按人物查看",
