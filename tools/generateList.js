@@ -3,7 +3,6 @@ const fs = require("fs");
 const path = require("path");
 const { ROLE_NAME } = require("./config");
 const config = require("../.vuepress/config");
-const { slugify } = require("@vuepress/shared-utils");
 
 const basePath = "module";
 const outputPath = "module";
@@ -33,10 +32,12 @@ const categories = Object.keys(tree)
 
 /** 增加list文件 */
 categories.forEach(({ name, modules, displayName }) => {
+  const backgroundPngPath = path.resolve(outputPath, name, "background.png");
   fs.writeFileSync(
     path.resolve(outputPath, name, "README.md"),
     `---
 sidebar: false
+pageClass: ${name}-page
 ---    
 # ${displayName}
 > 模组列表 已收录${modules.length}个模组
@@ -59,6 +60,19 @@ ${modules
   .join("\n")}
 </div>
 
+<style>
+  .${name}-page {
+    ${
+      fs.existsSync(backgroundPngPath)
+        ? "background-image: url(./background.png);"
+        : ""
+    }
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+  }  
+</style>
 `,
     {
       flag: "w"

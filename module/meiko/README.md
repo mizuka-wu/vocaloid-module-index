@@ -1,5 +1,6 @@
 ---
 sidebar: false
+pageClass: meiko-page
 ---    
 # Meiko
 > 模组列表 已收录34个模组
@@ -313,3 +314,9 @@ sidebar: false
     </div>
 </div>
 
+<style>
+  .meiko-page {
+    
+    background-color: #ffffff;
+  }  
+</style>

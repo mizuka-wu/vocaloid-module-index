@@ -1,5 +1,6 @@
 ---
 sidebar: false
+pageClass: luka-page
 ---    
 # 巡音露卡
 > 模组列表 已收录43个模组
@@ -394,3 +395,9 @@ sidebar: false
     </div>
 </div>
 
+<style>
+  .luka-page {
+    
+    background-color: #ffffff;
+  }  
+</style>

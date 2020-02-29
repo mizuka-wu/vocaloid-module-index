@@ -1,5 +1,6 @@
 ---
 sidebar: false
+pageClass: rin-page
 ---    
 # 镜音铃
 > 模组列表 已收录50个模组
@@ -457,3 +458,9 @@ sidebar: false
     </div>
 </div>
 
+<style>
+  .rin-page {
+    background-image: url(./background.png);
+    background-color: #ffffff;
+  }  
+</style>

@@ -1,5 +1,6 @@
 ---
 sidebar: false
+pageClass: etc-page
 ---    
 # 其他衍生角色
 > 模组列表 已收录16个模组
@@ -151,3 +152,9 @@ sidebar: false
     </div>
 </div>
 
+<style>
+  .etc-page {
+    
+    background-color: #ffffff;
+  }  
+</style>

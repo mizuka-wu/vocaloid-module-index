@@ -1,5 +1,6 @@
 ---
 sidebar: false
+pageClass: len-page
 ---    
 # 镜音连
 > 模组列表 已收录42个模组
@@ -385,3 +386,9 @@ sidebar: false
     </div>
 </div>
 
+<style>
+  .len-page {
+    background-image: url(./background.png);
+    background-color: #ffffff;
+  }  
+</style>

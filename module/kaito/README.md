@@ -1,5 +1,6 @@
 ---
 sidebar: false
+pageClass: kaito-page
 ---    
 # Kaito
 > 模组列表 已收录41个模组
@@ -376,3 +377,9 @@ sidebar: false
     </div>
 </div>
 
+<style>
+  .kaito-page {
+    
+    background-color: #ffffff;
+  }  
+</style>

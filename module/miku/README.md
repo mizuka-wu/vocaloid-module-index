@@ -1,5 +1,6 @@
 ---
 sidebar: false
+pageClass: miku-page
 ---    
 # 初音未来
 > 模组列表 已收录150个模组
@@ -1357,3 +1358,9 @@ sidebar: false
     </div>
 </div>
 
+<style>
+  .miku-page {
+    
+    background-color: #ffffff;
+  }  
+</style>
