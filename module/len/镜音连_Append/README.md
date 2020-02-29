@@ -16,4 +16,4 @@
 
 ## mmd 模型
 
-<iframe style="border: 0" :src="$withBase('/pmx/index.html#PDAFT Append Len/PDAFT Append Len.Pmx')" width="100%" height="600"></iframe>
+<PmxViewer key="PDAFT Append Len/PDAFT Append Len.Pmx" path="PDAFT Append Len/PDAFT Append Len.Pmx"/>
