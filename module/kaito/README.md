@@ -1,10 +1,12 @@
-
+---
+sidebar: false
+---    
 # Kaito
 > 模组列表 已收录41个模组
 
 <div class="row">
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_41" type="customer-head">
+      <h3 id="kaito_41">
         <a href="/vocaloid-module-index/module/kaito/kaito_41">
           <img src="./kaito_41/index.jpg" />
           <div>kaito_41</div>
@@ -13,7 +15,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_40" type="customer-head">
+      <h3 id="kaito_40">
         <a href="/vocaloid-module-index/module/kaito/kaito_40">
           <img src="./kaito_40/index.jpg" />
           <div>kaito_40</div>
@@ -22,7 +24,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_39" type="customer-head">
+      <h3 id="kaito_39">
         <a href="/vocaloid-module-index/module/kaito/kaito_39">
           <img src="./kaito_39/index.jpg" />
           <div>kaito_39</div>
@@ -31,7 +33,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_38" type="customer-head">
+      <h3 id="kaito_38">
         <a href="/vocaloid-module-index/module/kaito/kaito_38">
           <img src="./kaito_38/index.jpg" />
           <div>kaito_38</div>
@@ -40,7 +42,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_37" type="customer-head">
+      <h3 id="kaito_37">
         <a href="/vocaloid-module-index/module/kaito/kaito_37">
           <img src="./kaito_37/index.jpg" />
           <div>kaito_37</div>
@@ -49,7 +51,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_36" type="customer-head">
+      <h3 id="kaito_36">
         <a href="/vocaloid-module-index/module/kaito/kaito_36">
           <img src="./kaito_36/index.jpg" />
           <div>kaito_36</div>
@@ -58,7 +60,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_35" type="customer-head">
+      <h3 id="kaito_35">
         <a href="/vocaloid-module-index/module/kaito/kaito_35">
           <img src="./kaito_35/index.jpg" />
           <div>kaito_35</div>
@@ -67,7 +69,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_34" type="customer-head">
+      <h3 id="kaito_34">
         <a href="/vocaloid-module-index/module/kaito/kaito_34">
           <img src="./kaito_34/index.jpg" />
           <div>kaito_34</div>
@@ -76,7 +78,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_33" type="customer-head">
+      <h3 id="kaito_33">
         <a href="/vocaloid-module-index/module/kaito/kaito_33">
           <img src="./kaito_33/index.jpg" />
           <div>kaito_33</div>
@@ -85,7 +87,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_32" type="customer-head">
+      <h3 id="kaito_32">
         <a href="/vocaloid-module-index/module/kaito/kaito_32">
           <img src="./kaito_32/index.jpg" />
           <div>kaito_32</div>
@@ -94,7 +96,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_31" type="customer-head">
+      <h3 id="kaito_31">
         <a href="/vocaloid-module-index/module/kaito/kaito_31">
           <img src="./kaito_31/index.jpg" />
           <div>kaito_31</div>
@@ -103,7 +105,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_30" type="customer-head">
+      <h3 id="kaito_30">
         <a href="/vocaloid-module-index/module/kaito/kaito_30">
           <img src="./kaito_30/index.jpg" />
           <div>kaito_30</div>
@@ -112,7 +114,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_29" type="customer-head">
+      <h3 id="kaito_29">
         <a href="/vocaloid-module-index/module/kaito/kaito_29">
           <img src="./kaito_29/index.jpg" />
           <div>kaito_29</div>
@@ -121,7 +123,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_28" type="customer-head">
+      <h3 id="kaito_28">
         <a href="/vocaloid-module-index/module/kaito/kaito_28">
           <img src="./kaito_28/index.jpg" />
           <div>kaito_28</div>
@@ -130,7 +132,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_27" type="customer-head">
+      <h3 id="kaito_27">
         <a href="/vocaloid-module-index/module/kaito/kaito_27">
           <img src="./kaito_27/index.jpg" />
           <div>kaito_27</div>
@@ -139,7 +141,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_26" type="customer-head">
+      <h3 id="kaito_26">
         <a href="/vocaloid-module-index/module/kaito/kaito_26">
           <img src="./kaito_26/index.jpg" />
           <div>kaito_26</div>
@@ -148,7 +150,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_25" type="customer-head">
+      <h3 id="kaito_25">
         <a href="/vocaloid-module-index/module/kaito/kaito_25">
           <img src="./kaito_25/index.jpg" />
           <div>kaito_25</div>
@@ -157,7 +159,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_24" type="customer-head">
+      <h3 id="kaito_24">
         <a href="/vocaloid-module-index/module/kaito/kaito_24">
           <img src="./kaito_24/index.jpg" />
           <div>kaito_24</div>
@@ -166,7 +168,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_23" type="customer-head">
+      <h3 id="kaito_23">
         <a href="/vocaloid-module-index/module/kaito/kaito_23">
           <img src="./kaito_23/index.jpg" />
           <div>kaito_23</div>
@@ -175,7 +177,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_22" type="customer-head">
+      <h3 id="kaito_22">
         <a href="/vocaloid-module-index/module/kaito/kaito_22">
           <img src="./kaito_22/index.jpg" />
           <div>kaito_22</div>
@@ -184,7 +186,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_21" type="customer-head">
+      <h3 id="kaito_21">
         <a href="/vocaloid-module-index/module/kaito/kaito_21">
           <img src="./kaito_21/index.jpg" />
           <div>kaito_21</div>
@@ -193,7 +195,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_20" type="customer-head">
+      <h3 id="kaito_20">
         <a href="/vocaloid-module-index/module/kaito/kaito_20">
           <img src="./kaito_20/index.jpg" />
           <div>kaito_20</div>
@@ -202,7 +204,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_19" type="customer-head">
+      <h3 id="kaito_19">
         <a href="/vocaloid-module-index/module/kaito/kaito_19">
           <img src="./kaito_19/index.jpg" />
           <div>kaito_19</div>
@@ -211,7 +213,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_18" type="customer-head">
+      <h3 id="kaito_18">
         <a href="/vocaloid-module-index/module/kaito/kaito_18">
           <img src="./kaito_18/index.jpg" />
           <div>kaito_18</div>
@@ -220,7 +222,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_17" type="customer-head">
+      <h3 id="kaito_17">
         <a href="/vocaloid-module-index/module/kaito/kaito_17">
           <img src="./kaito_17/index.jpg" />
           <div>kaito_17</div>
@@ -229,7 +231,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_16" type="customer-head">
+      <h3 id="kaito_16">
         <a href="/vocaloid-module-index/module/kaito/kaito_16">
           <img src="./kaito_16/index.jpg" />
           <div>kaito_16</div>
@@ -238,7 +240,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_15" type="customer-head">
+      <h3 id="kaito_15">
         <a href="/vocaloid-module-index/module/kaito/kaito_15">
           <img src="./kaito_15/index.jpg" />
           <div>kaito_15</div>
@@ -247,7 +249,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_14" type="customer-head">
+      <h3 id="kaito_14">
         <a href="/vocaloid-module-index/module/kaito/kaito_14">
           <img src="./kaito_14/index.jpg" />
           <div>kaito_14</div>
@@ -256,7 +258,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_13" type="customer-head">
+      <h3 id="kaito_13">
         <a href="/vocaloid-module-index/module/kaito/kaito_13">
           <img src="./kaito_13/index.jpg" />
           <div>kaito_13</div>
@@ -265,7 +267,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_12" type="customer-head">
+      <h3 id="kaito_12">
         <a href="/vocaloid-module-index/module/kaito/kaito_12">
           <img src="./kaito_12/index.jpg" />
           <div>kaito_12</div>
@@ -274,7 +276,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_11" type="customer-head">
+      <h3 id="kaito_11">
         <a href="/vocaloid-module-index/module/kaito/kaito_11">
           <img src="./kaito_11/index.jpg" />
           <div>kaito_11</div>
@@ -283,7 +285,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_10" type="customer-head">
+      <h3 id="kaito_10">
         <a href="/vocaloid-module-index/module/kaito/kaito_10">
           <img src="./kaito_10/index.jpg" />
           <div>kaito_10</div>
@@ -292,7 +294,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_09" type="customer-head">
+      <h3 id="kaito_09">
         <a href="/vocaloid-module-index/module/kaito/kaito_09">
           <img src="./kaito_09/index.jpg" />
           <div>kaito_09</div>
@@ -301,7 +303,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_08" type="customer-head">
+      <h3 id="kaito_08">
         <a href="/vocaloid-module-index/module/kaito/kaito_08">
           <img src="./kaito_08/index.jpg" />
           <div>kaito_08</div>
@@ -310,7 +312,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_07" type="customer-head">
+      <h3 id="kaito_07">
         <a href="/vocaloid-module-index/module/kaito/kaito_07">
           <img src="./kaito_07/index.jpg" />
           <div>kaito_07</div>
@@ -319,7 +321,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_06" type="customer-head">
+      <h3 id="kaito_06">
         <a href="/vocaloid-module-index/module/kaito/kaito_06">
           <img src="./kaito_06/index.jpg" />
           <div>kaito_06</div>
@@ -328,7 +330,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_05" type="customer-head">
+      <h3 id="kaito_05">
         <a href="/vocaloid-module-index/module/kaito/kaito_05">
           <img src="./kaito_05/index.jpg" />
           <div>kaito_05</div>
@@ -337,7 +339,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_04" type="customer-head">
+      <h3 id="kaito_04">
         <a href="/vocaloid-module-index/module/kaito/kaito_04">
           <img src="./kaito_04/index.jpg" />
           <div>kaito_04</div>
@@ -346,7 +348,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_03" type="customer-head">
+      <h3 id="kaito_03">
         <a href="/vocaloid-module-index/module/kaito/kaito_03">
           <img src="./kaito_03/index.jpg" />
           <div>kaito_03</div>
@@ -355,7 +357,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_02" type="customer-head">
+      <h3 id="kaito_02">
         <a href="/vocaloid-module-index/module/kaito/kaito_02">
           <img src="./kaito_02/index.jpg" />
           <div>kaito_02</div>
@@ -364,7 +366,7 @@
       </h3>
     </div>
 <div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="kaito_01" type="customer-head">
+      <h3 id="kaito_01">
         <a href="/vocaloid-module-index/module/kaito/kaito_01">
           <img src="./kaito_01/index.jpg" />
           <div>kaito_01</div>
@@ -372,4 +374,5 @@
         </a>
       </h3>
     </div>
-</div>  
+</div>
+

@@ -1,17 +1,9 @@
 const readFileTree = require("read-file-tree");
 const fs = require("fs");
 const path = require("path");
+const { ROLE_NAME } = require("./config");
 const config = require("../.vuepress/config");
-
-const NAME = {
-  len: "镜音连",
-  rin: "镜音铃",
-  miku: "初音未来",
-  kaito: "Kaito",
-  meiko: "Meiko",
-  luka: "巡音露卡",
-  etc: "其他衍生角色"
-};
+const { slugify } = require("@vuepress/shared-utils");
 
 const basePath = "module";
 const outputPath = "module";
@@ -34,7 +26,7 @@ const categories = Object.keys(tree)
       }));
     return {
       name: categoryName,
-      displayName: NAME[categoryName] || categoryName,
+      displayName: ROLE_NAME[categoryName] || categoryName,
       modules
     };
   });
@@ -43,7 +35,9 @@ const categories = Object.keys(tree)
 categories.forEach(({ name, modules, displayName }) => {
   fs.writeFileSync(
     path.resolve(outputPath, name, "README.md"),
-    `
+    `---
+sidebar: false
+---    
 # ${displayName}
 > 模组列表 已收录${modules.length}个模组
 
@@ -53,7 +47,7 @@ ${modules
   .map(_module => {
     const pic = `./${[_module.name, _module.pic].join("/")}`;
     return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-      <h3 id="${_module.name}" type="customer-head">
+      <h3 id="${_module.name}">
         <a href="${config.base}module/${name}/${_module.name}">
           <img src="${pic}" />
           <div>${_module.name}</div>
@@ -63,7 +57,8 @@ ${modules
     </div>`;
   })
   .join("\n")}
-</div>  
+</div>
+
 `,
     {
       flag: "w"

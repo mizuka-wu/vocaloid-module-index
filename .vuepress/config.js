@@ -8,6 +8,8 @@ module.exports = {
     //   indexName: '<INDEX_NAME>'
     // },
     sidebar: "auto",
+    sidebarDepth: 2,
+    lastUpdated: "最后更新时间 ",
     displayAllHeaders: true,
     nav: [
       {
