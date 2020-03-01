@@ -85,7 +85,7 @@ pageClass: ${name}-page
   .${name}-page {
     ${
       fs.existsSync(backgroundPngPath)
-        ? `background-image: url(data:image/png;${fs.readFileSync(
+        ? `background-image: url(data:image/png;base64,${fs.readFileSync(
             backgroundPngPath,
             "base64"
           )});`
