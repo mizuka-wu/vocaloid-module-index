@@ -36,13 +36,15 @@ module.exports = {
       {
         path: `/${outputPath}/`,
         content: `# 根据分类查看
+共${categories.length}个分类
+
           ${categories
-            .map(
-              ({ name, modules, displayName }) => `## ${displayName}
-          [点击前往](${base}module/${name})
-          共收录 ${modules.length} 个模组
-          `
-            )
+            .map(({ name, modules, displayName }) => {
+              return `  
+## ${displayName}  
+[点击前往](${base}module/${name})  
+共收录 ${modules.length} 个模组`;
+            })
             .join("\n")}
           `
       },
@@ -68,8 +70,8 @@ pageClass: ${name}-page
           const pic = `./${[_module.name, _module.pic].join("/")}`;
           return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
   <h3 id="${_module.name}">
-    <a href="${base}module/${name}/${_module.name}">
-      <img src="${pic}" />
+    <a href="./${_module.name}">
+      <img src="${""}" />
       <div>${_module.name}</div>
       <div>点击前往</div>
     </a>
@@ -83,7 +85,8 @@ pageClass: ${name}-page
   .${name}-page {
     ${
       fs.existsSync(backgroundPngPath)
-        ? "background-image: url(./background.png);"
+        ? // ? `background-image: url(${require(backgroundPngPath)});`
+          ""
         : ""
     }
     background-color: #ffffff;
