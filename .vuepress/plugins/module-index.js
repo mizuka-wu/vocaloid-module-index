@@ -56,13 +56,13 @@ module.exports = {
         return {
           path: `/${outputPath}/${name}/`,
           content: `---
-      sidebar: false
-      pageClass: ${name}-page
-      ---    
-      # ${displayName}
-      > 模组列表 已收录${modules.length}个模组
-      
-      <div class="row">
+sidebar: false
+pageClass: ${name}-page
+---    
+# ${displayName}
+> 模组列表 已收录${modules.length}个模组
+
+<div class="row">
       ${modules
         .reverse()
         .map(_module => {
@@ -78,23 +78,22 @@ module.exports = {
           </div>`;
         })
         .join("\n")}
-      </div>
+</div>
       
-      <style>
-        .${name}-page {
-          ${
-            fs.existsSync(backgroundPngPath)
-              ? "background-image: url(./background.png);"
-              : ""
-          }
-          background-color: #ffffff;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-position: bottom right;
-          background-size: 30vmin;
-        }  
-      </style>
-      `
+<style>
+  .${name}-page {
+    ${
+      fs.existsSync(backgroundPngPath)
+        ? "background-image: url(./background.png);"
+        : ""
+    }
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-size: 30vmin;
+  }  
+</style>`
         };
       })
     ];
