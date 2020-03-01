@@ -10,7 +10,10 @@ const modules = fs
   .map(moduleName => ({
     text: ROLE_NAME[moduleName] || moduleName,
     link: `/module/${moduleName}/`
-  }));
+  }))
+  .sort((prev, next) => {
+    return prev.name - next.name;
+  });
 
 module.exports = {
   base: "/vocaloid-module-index/",

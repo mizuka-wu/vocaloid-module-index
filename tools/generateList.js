@@ -1,35 +1,3 @@
-const readFileTree = require("read-file-tree");
-const fs = require("fs");
-const path = require("path");
-const { ROLE_NAME } = require("./config");
-const config = require("../.vuepress/config");
-
-const basePath = "module";
-const outputPath = "module";
-
-const tree = readFileTree.sync(basePath);
-
-const categories = Object.keys(tree)
-  .filter(categoryName => {
-    return !Buffer.isBuffer(tree[categoryName]);
-  })
-  .map(categoryName => {
-    const category = tree[categoryName];
-    const modules = Object.keys(category)
-      .filter(moduleName => {
-        return !Buffer.isBuffer(category[moduleName]);
-      })
-      .map(moduleName => ({
-        name: moduleName,
-        pic: "index.jpg"
-      }));
-    return {
-      name: categoryName,
-      displayName: ROLE_NAME[categoryName] || categoryName,
-      modules
-    };
-  });
-
 /** 增加list文件 */
 categories.forEach(({ name, modules, displayName }) => {
   const backgroundPngPath = path.resolve(outputPath, name, "background.png");

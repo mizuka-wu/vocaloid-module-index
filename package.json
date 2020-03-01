@@ -7,7 +7,6 @@
     "dev": "vuepress dev .",
     "build": "vuepress build .",
     "spider": "node ./tools/segaSpider.js",
-    "index": "node ./tools/generateList.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
