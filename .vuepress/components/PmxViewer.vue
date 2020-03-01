@@ -3,12 +3,7 @@
     <button class="fullscreen-button" @click="fullscreen = !fullscreen">
       点击{{ fullscreen ? "取消" : "" }}全屏
     </button>
-    <iframe
-      style="border: 0"
-      :src="$withBase(src)"
-      width="100%"
-      height="600"
-    ></iframe>
+    <iframe style="border: 0" :src="$withBase(src)" width="100%"></iframe>
   </div>
 </template>
 
@@ -41,6 +36,9 @@ export default {
   right: 0;
   z-index: 9999;
 }
+.fullscreen iframe {
+  height: 100vh;
+}
 .fullscreen-button {
   position: absolute;
   right: 0;
@@ -49,5 +47,8 @@ export default {
 }
 .pmxviewer {
   position: relative;
+}
+iframe {
+  min-height: 600px;
 }
 </style>
