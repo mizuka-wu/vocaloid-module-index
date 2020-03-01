@@ -379,7 +379,7 @@ pageClass: kaito-page
 
 <style>
   .kaito-page {
-    
+    background-image: url(./background.png);
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-attachment: fixed;

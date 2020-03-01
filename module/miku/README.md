@@ -1360,7 +1360,7 @@ pageClass: miku-page
 
 <style>
   .miku-page {
-    
+    background-image: url(./background.png);
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-attachment: fixed;
