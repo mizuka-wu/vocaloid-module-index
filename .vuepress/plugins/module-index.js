@@ -1,13 +1,14 @@
 const { ROLE_NAME } = require("../const");
 const { base } = require("../config");
 const readFileTree = require("read-file-tree");
+const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 const basePath = "module";
 const outputPath = "module";
 
-module.exports = () => ({
-  async additionalPages() {
+module.exports = (options, ctx) => ({
+  additionalPages() {
     const tree = readFileTree.sync(basePath);
     const categories = Object.keys(tree)
       .filter(categoryName => {
@@ -67,11 +68,26 @@ pageClass: ${name}-page
       ${modules
         .reverse()
         .map(_module => {
-          const pic = `./${[_module.name, _module.pic].join("/")}`;
+          const picPath = path.resolve(
+            "module",
+            name,
+            _module.name,
+            _module.pic
+          );
+          const picture = fs.readFileSync(picPath);
+          const hash = crypto
+            .createHash("md5")
+            .update(picture)
+            .digest("hex");
+
+          const pic = `/assets/img/${_module.pic}`.replace(
+            ".",
+            `.${hash.substr(0, 8)}.`
+          );
           return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
   <h3 id="${_module.name}">
     <a href="./${_module.name}">
-      <img src="${""}" />
+      <img :src="$withBase('${pic}')" />
       <div>${_module.name}</div>
       <div>点击前往</div>
     </a>
