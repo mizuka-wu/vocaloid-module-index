@@ -99,17 +99,3 @@ ${categories
     flag: "w"
   }
 );
-
-// 输出顶部控制
-fs.writeFileSync(
-  path.resolve(".vuepress/nav.json"),
-  JSON.stringify(
-    categories.map(({ name, displayName }) => ({
-      text: displayName,
-      link: `/module/${name}/`
-    })),
-    null,
-    2
-  ),
-  { flag: "w" }
-);

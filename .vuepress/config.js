@@ -1,12 +1,21 @@
-const nav = require("./nav.json");
+const fs = require("fs");
+const path = require("path");
+const { ROLE_NAME } = require("./const");
+
+const modules = fs
+  .readdirSync(path.resolve("module"))
+  .filter(moduleName =>
+    fs.statSync(path.resolve("module", moduleName)).isDirectory()
+  )
+  .map(moduleName => ({
+    text: ROLE_NAME[moduleName] || moduleName,
+    link: `/module/${moduleName}/`
+  }));
+
 module.exports = {
   base: "/vocaloid-module-index/",
   title: "V家模组收集",
   themeConfig: {
-    // algolia: {
-    //   apiKey: '<API_KEY>',
-    //   indexName: '<INDEX_NAME>'
-    // },
     sidebar: "auto",
     sidebarDepth: 2,
     lastUpdated: "最后更新时间 ",
@@ -14,7 +23,7 @@ module.exports = {
     nav: [
       {
         text: "按人物查看",
-        items: nav
+        items: modules
       },
       {
         text: "切换访问源",
@@ -34,5 +43,6 @@ module.exports = {
         link: "https://github.com/mizuka-wu/vocaloid-module-index"
       }
     ]
-  }
+  },
+  plugins: [require("./plugins/module-index.js")]
 };
