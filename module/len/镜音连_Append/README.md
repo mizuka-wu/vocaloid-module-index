@@ -16,4 +16,4 @@
 
 ## mmd 模型
 
-<PmxViewer key="PDAFT Append Len/PDAFT Append Len.Pmx" path="PDAFT Append Len/PDAFT Append Len.Pmx"/>
+<PmxViewer path="PDAFT Append Len/PDAFT Append Len.Pmx"/>

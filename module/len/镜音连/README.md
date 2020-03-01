@@ -33,4 +33,4 @@ CV：下田麻美
 
 ## mmd 模型
 
-<iframe style="border: 0" :src="$withBase('/pmx/index.html#PDAFT Default Len/PDAFT Default Len.Pmx')" width="100%" height="600"></iframe>
+<PmxViewer path="PDAFT Default Len/PDAFT Default Len.Pmx"/>

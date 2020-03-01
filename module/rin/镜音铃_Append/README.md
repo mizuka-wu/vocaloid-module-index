@@ -16,4 +16,4 @@
 
 ## mmd 模型
 
-<iframe style="border: 0" :src="$withBase('/pmx/index.html#PDAFT Append Rin/PDAFT Append Rin.Pmx')" width="100%" height="600"></iframe>
+<PmxViewer path="PDAFT Append Rin/PDAFT Append Rin.Pmx"/>
