@@ -68,14 +68,14 @@ pageClass: ${name}-page
         .map(_module => {
           const pic = `./${[_module.name, _module.pic].join("/")}`;
           return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
-            <h3 id="${_module.name}">
-              <a href="${base}module/${name}/${_module.name}">
-                <img src="${pic}" />
-                <div>${_module.name}</div>
-                <div>点击前往</div>
-              </a>
-            </h3>
-          </div>`;
+  <h3 id="${_module.name}">
+    <a href="${base}module/${name}/${_module.name}">
+      <img src="${pic}" />
+      <div>${_module.name}</div>
+      <div>点击前往</div>
+    </a>
+  </h3>
+</div>`;
         })
         .join("\n")}
 </div>
