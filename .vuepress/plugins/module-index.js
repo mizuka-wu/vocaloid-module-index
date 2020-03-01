@@ -6,7 +6,7 @@ const path = require("path");
 const basePath = "module";
 const outputPath = "module";
 
-module.exports = {
+module.exports = () => ({
   async additionalPages() {
     const tree = readFileTree.sync(basePath);
     const categories = Object.keys(tree)
@@ -42,7 +42,7 @@ module.exports = {
             .map(({ name, modules, displayName }) => {
               return `  
 ## ${displayName}  
-[点击前往](${base}module/${name})  
+[点击前往](./${name})  
 共收录 ${modules.length} 个模组`;
             })
             .join("\n")}
@@ -85,8 +85,10 @@ pageClass: ${name}-page
   .${name}-page {
     ${
       fs.existsSync(backgroundPngPath)
-        ? // ? `background-image: url(${require(backgroundPngPath)});`
-          ""
+        ? `background-image: url(data:image/png;${fs.readFileSync(
+            backgroundPngPath,
+            "base64"
+          )});`
         : ""
     }
     background-color: #ffffff;
@@ -100,4 +102,4 @@ pageClass: ${name}-page
       })
     ];
   }
-};
+});
