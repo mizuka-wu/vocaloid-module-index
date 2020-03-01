@@ -156,5 +156,9 @@ pageClass: etc-page
   .etc-page {
     
     background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-size: 20vmin;
   }  
 </style>

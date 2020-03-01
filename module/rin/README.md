@@ -462,5 +462,9 @@ pageClass: rin-page
   .rin-page {
     background-image: url(./background.png);
     background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-size: 20vmin;
   }  
 </style>

@@ -122,3 +122,5 @@ temp/
 # End of https://www.gitignore.io/api/node,visualstudiocode
 
 .vuepress/dest
+
+.DS_Store
