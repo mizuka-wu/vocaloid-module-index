@@ -38,8 +38,7 @@ module.exports = {
         content: `# 根据分类查看
           ${categories
             .map(
-              ({ name, modules, displayName }) => `
-          ## ${displayName}
+              ({ name, modules, displayName }) => `## ${displayName}
           [点击前往](${base}module/${name})
           共收录 ${modules.length} 个模组
           `
