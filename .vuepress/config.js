@@ -47,5 +47,13 @@ module.exports = {
       }
     ]
   },
-  plugins: [require("./plugins/module-index.js")]
+  plugins: [
+    require("./plugins/module-index.js"),
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-112738831-2" // UA-00000000-0
+      }
+    ]
+  ]
 };
