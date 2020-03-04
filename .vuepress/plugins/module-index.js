@@ -84,7 +84,7 @@ pageClass: ${name}-page
             ".",
             `.${hash.substr(0, 8)}.`
           );
-          return `<div class="col-sm-24 col-md-6 col-lg-6 col-xl-4" style="margin-bottom: 15px;text-align: center;">
+          return `<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2" style="margin-bottom: 15px;text-align: center;">
   <h3 id="${_module.name}">
     <a href="./${_module.name}">
       <img :src="$withBase('${pic}')" />
@@ -98,7 +98,7 @@ pageClass: ${name}-page
 </div>
       
 <style>
-  .${name}-page {
+  .${name}-page:before {
     ${
       fs.existsSync(backgroundPngPath)
         ? `background-image: url(data:image/png;base64,${fs.readFileSync(
@@ -107,12 +107,21 @@ pageClass: ${name}-page
           )});`
         : ""
     }
-    background-color: #ffffff;
+    content: ' ';
+    position: fixed;
+    z-index: 0;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: bottom right;
-    background-size: 30vmin;
-  }  
+    background-size: contain;
+    opacity: 0.5;
+  }
+  .${name}-page .content__default {
+    max-width: 1200px;
+  }
 </style>`
         };
       })
