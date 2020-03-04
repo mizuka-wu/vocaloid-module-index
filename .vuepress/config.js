@@ -11,7 +11,7 @@ const modules = fs
     text: ROLE_NAME[moduleName] || moduleName,
     link: `/module/${moduleName}/`
   }))
-  .c((prev, next) => {
+  .sort((prev, next) => {
     return prev.name > next.name ? 1 : -1;
   });
 
