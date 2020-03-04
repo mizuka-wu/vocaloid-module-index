@@ -32,9 +32,9 @@ footer: MIT Licensed | Copyright © 2020-present Mizuka wu
 
 ## todo
 
-[ ] 翻译模组为 ft 中文名
-[ ] 添加 project x 相关模组
-[ ] 寻找模型
+[ ] 翻译模组为 ft 中文名.  
+[x] 添加 project x 相关模组.  
+[ ] 寻找模型.  
 
 ## 模组格式
 
