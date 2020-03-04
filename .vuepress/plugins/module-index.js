@@ -31,7 +31,7 @@ module.exports = (options, ctx) => ({
         };
       })
       .sort((prev, next) => {
-        return prev.displayName - next.displayName;
+        return prev.displayName > next.displayName ? 1 : -1;
       });
     return [
       {
