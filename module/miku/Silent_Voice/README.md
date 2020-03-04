@@ -1,8 +1,7 @@
+# 模组信息
 
-  # 模组信息
+![](./index.jpg)
 
-  ![](./index.png)
+## 模组名称
 
-  ## 模组名称
-  - **DIVA X英文** Silent_Voice
-  
+- **DIVA X 英文** Silent_Voice
