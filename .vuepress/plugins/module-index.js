@@ -120,7 +120,7 @@ pageClass: ${name}-page
     opacity: 0.5;
   }
   .${name}-page .content__default {
-    max-width: 1200px;
+    max-width: 1200px!important;
   }
 </style>`
         };
