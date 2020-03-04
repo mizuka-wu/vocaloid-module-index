@@ -49,11 +49,13 @@ module.exports = {
   },
   plugins: [
     require("./plugins/module-index.js"),
+    "vuepress-plugin-baidu-autopush",
     [
       "@vuepress/google-analytics",
       {
         ga: "UA-112738831-2" // UA-00000000-0
       }
-    ]
+    ],
+    ["sitemap", { hostname: "https://mizuka.gitee.io/vocaloid-module-index/" }]
   ]
 };
