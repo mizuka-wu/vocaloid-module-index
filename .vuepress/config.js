@@ -56,6 +56,18 @@ module.exports = {
         ga: "UA-112738831-2" // UA-00000000-0
       }
     ],
-    ["sitemap", { hostname: "https://mizuka.gitee.io/vocaloid-module-index/" }]
+    ["sitemap", { hostname: "https://mizuka.gitee.io/vocaloid-module-index/" }],
+    [
+      "vuepress-plugin-medium-zoom",
+      {
+        selector: "img",
+        delay: 1000,
+        options: {
+          margin: 24,
+          background: "#000000",
+          scrollOffset: 0
+        }
+      }
+    ]
   ]
 };
