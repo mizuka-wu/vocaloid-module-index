@@ -89,7 +89,7 @@ pageClass: ${name}-page
     <a href="./${_module.name}">
       <img :src="$withBase('${pic}')" />
       <div>${_module.name}</div>
-      <div>点击前往</div>
+      <div style="font-size:14px;">点击前往</div>
     </a>
   </h3>
 </div>`;
