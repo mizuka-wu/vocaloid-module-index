@@ -4,4 +4,4 @@
 
 ## 模组名
 
-- **mega39s** 咲音 MEIKO
+- **mega39s** KAITO 白西装
