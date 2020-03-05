@@ -22,6 +22,10 @@ module.exports = {
     sidebar: "auto",
     sidebarDepth: 2,
     lastUpdated: "最后更新时间 ",
+    algolia: {
+      apiKey: "1c71a0c7c33f8f8050e8493037a17f64",
+      indexName: "vocaloid-module-index"
+    },
     displayAllHeaders: true,
     nav: [
       {
