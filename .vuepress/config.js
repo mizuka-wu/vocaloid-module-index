@@ -49,7 +49,12 @@ module.exports = {
         text: "github",
         link: "https://github.com/mizuka-wu/vocaloid-module-index"
       }
-    ]
+    ],
+    repo: "mizuka-wu/vocaloid-module-index",
+    repoLabel: "查看源码",
+    docsBranch: "gh-pages",
+    editLinks: true,
+    editLinkText: "帮助改进此模组简介！"
   },
   plugins: [
     require("./plugins/module-index.js"),
@@ -70,6 +75,22 @@ module.exports = {
           margin: 24,
           background: "#000000",
           scrollOffset: 0
+        }
+      }
+    ],
+    [
+      "vuepress-plugin-mygitalk",
+      {
+        enable: true,
+        home: true,
+        // Gitalk配置
+        gitalk: {
+          clientID: "0da57604a1d3f127c677",
+          clientSecret: "5191b95a0e06948acf7fd4fc16a875052db3102c",
+          // GitHub repository. 存储评论的 repo
+          repo: "mizuka-wu/vocaloid-module-index",
+          owner: "mizuka-wu",
+          language: "zh-CN"
         }
       }
     ]
