@@ -21,11 +21,9 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.DEPLOY_KEY }}
 
-      - name: Build and Deploy Repo
-        uses: JamesIves/github-pages-deploy-action@releases/v3-test
-        with:
-          BASE_BRANCH: master
-          BRANCH: gh-pages
-          FOLDER: .vuepress/dist
-          CLEAN: true
-          SSH: true # SSH must be set to true so the deploy action knows which protocol to deploy with.
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./.vuepress/dist
