@@ -1,0 +1,31 @@
+<head>
+    <script src="./js/aframe.min.js"></script>
+    <script src="./js/ammo.js"></script>
+    <script src="./js/aframe-outline.min.js"></script>
+    <script src="./js/a-mmd.min.js"></script>
+</head>
+
+<body>
+    <div style="margin: 5px; position: fixed; top: 0; left: 0;color: #ffffff;z-index: 9999;">
+        <p>操控说明：上下左右 + 鼠标滚轮 + 鼠标拖拽调整镜头</p>
+        <p>仅支持电脑访问</p>
+    </div>
+    <a-scene antialias="true" outline>
+        <a-entity position="0 15 8">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <a-entity id="entity" mmd-model=""></a-entity>
+        <a-sky color="#000000"></a-sky>
+        <a-light type="ambient" color="#fff"></a-light>
+        <a-light color="#fff" distance="120" intensity="0.2" type="point" position="20 40 4"></a-light>
+    </a-scene>
+</body>
+<script>
+    window.onload = function () {
+        const entity = document.querySelector('#entity')
+        const modulePath = location.hash.replace('#', '')
+        const mmdModel = `model:./models/${modulePath};physics:true;`
+        entity.setAttribute('mmd-model', mmdModel)
+    }
+</script>
