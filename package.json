@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/mizuka-wu/vocaloid-module-index#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "crypto": "^1.0.1",
     "jimp": "^0.9.5",
